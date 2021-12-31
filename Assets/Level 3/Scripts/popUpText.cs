@@ -22,10 +22,10 @@ public class popUpText : MonoBehaviour
         if (collider.tag == "Player")
         {
             string[] dialogue = {
-             "Welcome to level 4 (Baby monsters):",
-             "In this level you are going to fcae 3 monsters each monster will be killed by 2 shoots.",
-             "Spikes acts like traps they are going to make you strat from the begining but will not affect your health.",
-             "Good luck!!", 
+           "2 Down 2 too goo!!",
+           "Beating the monsters wont be as easy as you think take care for the traps.",
+           "They kill you with only on touch.",
+           "GOOD LUCK WORRIOR!!!"
             };
 
             DManager.SetSentence(dialogue);
